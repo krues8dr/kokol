@@ -8,6 +8,13 @@ const packageJson = require('./package.json');
 const colors = require('colors');
 
 
+console.log("█  ██  █  ,----------,");
+console.log(" ██████   | Lali Ho! |");
+console.log("█ ■  ■ █  '----------'");
+console.log(" ▒▒▒▒▒▒               ");
+console.log("  ▒▒▒▒       KOKOL    ");
+console.log("");
+
 program
   .version(packageJson.version)
   // .option('-o, --option','option description')
