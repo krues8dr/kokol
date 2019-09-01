@@ -9,7 +9,7 @@ const colors = require('colors');
 
 
 console.log("█  ██  █  ,----------,");
-console.log(" ██████   | Lali Ho! |");
+console.log(" ██████   | Lali-ho! |");
 console.log("█ ■  ■ █  '----------'");
 console.log(" ▒▒▒▒▒▒               ");
 console.log("  ▒▒▒▒       KOKOL    ");
