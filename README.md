@@ -1,5 +1,13 @@
 # Kokol
 
+```
+█  ██  █  ,----------,
+ ██████   | Lali-ho! |
+█ ■  ■ █  '----------'
+ ▒▒▒▒▒▒
+  ▒▒▒▒       KOKOL
+```
+
 Kokol is a helper application for RPG Maker MV.  It allows you to compile assets
 and perform transformations on them.
 
