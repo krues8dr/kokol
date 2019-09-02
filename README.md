@@ -10,6 +10,16 @@ and perform transformations on them.
 1. Install dependencies with `npm install` or `yarn install`
 2. Add to your executable path with `npm link`
 
+## Local Webserver
+
+Kokol comes packaged with a light wrapper around
+[`http-server`](https://www.npmjs.com/package/http-server) which can be run with
+`kokol serve`.  Your game will then be available to a local webbrowser at
+<http://localhost:8080/>.
+
+Please refer to the `http-server` documentation for available
+options and parameters.
+
 ## Working with images
 
 **These functions require ImageMagick to be installed.**

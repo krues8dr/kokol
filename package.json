@@ -14,13 +14,10 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "start": "./node_modules/.bin/http-server -p 8000 -a 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "./node_modules/.bin/gulp package",
     "image-resize": "./node_modules/.bin/gulp image-resize",
-    "watch-images": "./node_modules/.bin/gulp watch-images",
-    "image-colors": "./node_modules/.bin/gulp image-colors",
-    "palette-swap": "./node_modules/.bin/gulp palette-swap"
+    "watch-images": "./node_modules/.bin/gulp watch-images"
   },
   "author": "krues8dr",
   "license": "UNLICENSED",
