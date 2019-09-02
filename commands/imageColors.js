@@ -5,7 +5,7 @@ const fs = require('fs');
 const exec = require('child_process').exec;
 const showColor = require('../lib/showColor');
 
-module.exports = function installCommand(program) {
+module.exports = function imageColors(program) {
   program
     .command('image-colors <image> [outfile]')
     .description('Generates a list of colors in an image. Can output a palette file.')

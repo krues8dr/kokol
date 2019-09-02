@@ -39,8 +39,6 @@ Running the above command without the `outfile` will show a list of the colors
 in the image. Adding a path to an `outfile` will create a json file that lists
 a map of all the colors in the image.
 
-
-
 For each color you want to replace, place a replacement hex color code on the
 right side. Remove any lines of colors you do not want to replace. You may also
 specify multiple colors per file, by adding additional JSON objects inside of
@@ -90,3 +88,9 @@ images based on the original.
 
 Using the example above on a template image will result in three images being
 placed in `outdir`.
+
+### Resize
+
+Sometimes it can be useful to create small images and resize them up. The
+`kokol resize` function will resize an image for you while retaining the
+original pixelly look rather than a blurry mess.
