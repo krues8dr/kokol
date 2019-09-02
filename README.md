@@ -100,7 +100,7 @@ original pixelly look rather than a blurry mess.
 If you're going to be distributing your game, you probably will want to bundle
 your RPG Maker MV assets. The `kokol bundle` command will combine the core files
 and compress them using `uglify.js`.  It does *not*, however, combine your
-plugins yet ( # 2).
+plugins yet ( #2 ).
 
 By default, the generated `bundle.js` file will be put into `dist`, but
 optionally you can provide a directory as the last argument to the command
