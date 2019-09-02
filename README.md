@@ -38,6 +38,8 @@ Frequently, game designers will want to create palette-swapped version of
 existing assets.  Kokol makes this process quick and easy, with only a little
 knowledge of JSON required.  Note that this works best on gif/png files.
 
+![Palette Swap](https://raw.githubusercontent.com/wiki/krues8dr/kokol/img/palette-swap.png)
+
 First, you'll need to generate a dictionary of your colors for the image in
 question, using the `image-colors` command.
 
@@ -102,6 +104,8 @@ placed in `outdir`.
 Sometimes it can be useful to create small images and resize them up. The
 `kokol resize` function will resize an image for you while retaining the
 original pixelly look rather than a blurry mess.
+
+![Image Resize](https://raw.githubusercontent.com/wiki/krues8dr/kokol/img/image-resize.png)
 
 ## Asset Bundling
 
