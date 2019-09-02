@@ -1,9 +1,6 @@
 'use strict';
 
-const os = require('os');
-const fs = require('fs');
 const exec = require('child_process').exec;
-const showColor = require('../lib/showColor');
 
 module.exports = function imageResize(program) {
   program

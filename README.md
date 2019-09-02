@@ -94,3 +94,24 @@ placed in `outdir`.
 Sometimes it can be useful to create small images and resize them up. The
 `kokol resize` function will resize an image for you while retaining the
 original pixelly look rather than a blurry mess.
+
+## Asset Bundling
+
+If you're going to be distributing your game, you probably will want to bundle
+your RPG Maker MV assets. The `kokol bundle` command will combine the core files
+and compress them using `uglify.js`.  It does *not*, however, combine your
+plugins yet (#2).
+
+By default, the generated `bundle.js` file will be put into `dist`, but
+optionally you can provide a directory as the last argument to the command
+(`kokol bundle dirname`).
+
+You'll need to replace the various JavaScript library files from your
+`index.html` with a single line:
+
+```
+<script type="text/javascript" src="/dist/bundle.js"></script>
+```
+
+When the command is run, it will automatically add a timestamp to the bundle in
+the index file.
