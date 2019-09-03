@@ -107,6 +107,20 @@ original pixelly look rather than a blurry mess.
 
 ![Image Resize](https://raw.githubusercontent.com/wiki/krues8dr/kokol/img/image-resize.png)
 
+### Sprite Sheets
+
+RPG Maker MV allows for many sprites to be arranged in a 4x2 sprite sheet. The
+`kokol sprite-sheet` command can create these sprite sheets for you. The first
+argument to this command is the base output file, e.g. if you give 'test.png',
+it will write 'test-1.png', 'test-2.png', etc. until all sprite sheets are
+generated. All arguments after the first will be passed as globs of images to
+pattern-match and then combine in sets of 8 at a time.
+
+Example:
+
+`kokol sprite-sheet ./sprites/people.png ./character/*.png`
+
+
 ## Asset Bundling
 
 If you're going to be distributing your game, you probably will want to bundle
